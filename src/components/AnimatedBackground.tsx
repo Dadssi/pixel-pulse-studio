@@ -10,11 +10,11 @@ interface FloatingShape {
 }
 
 const shapes: FloatingShape[] = [
-  { id: 1, x: '10%', y: '20%', size: 300, color: 'neon-cyan', delay: 0 },
-  { id: 2, x: '80%', y: '30%', size: 200, color: 'neon-purple', delay: 0.5 },
-  { id: 3, x: '70%', y: '70%', size: 250, color: 'neon-pink', delay: 1 },
-  { id: 4, x: '20%', y: '80%', size: 180, color: 'neon-cyan', delay: 1.5 },
-  { id: 5, x: '50%', y: '10%', size: 150, color: 'neon-green', delay: 2 },
+  { id: 1, x: '10%', y: '20%', size: 300, color: 'brand-orange', delay: 0 },
+  { id: 2, x: '80%', y: '30%', size: 200, color: 'brand-blue', delay: 0.5 },
+  { id: 3, x: '70%', y: '70%', size: 250, color: 'brand-coral', delay: 1 },
+  { id: 4, x: '20%', y: '80%', size: 180, color: 'brand-blue-light', delay: 1.5 },
+  { id: 5, x: '50%', y: '10%', size: 150, color: 'brand-purple', delay: 2 },
 ];
 
 export const AnimatedBackground = () => {
