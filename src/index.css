@@ -6,59 +6,62 @@
 
 @layer base {
   :root {
-    /* Dark futuristic theme */
-    --background: 240 10% 4%;
-    --foreground: 0 0% 95%;
+    /* Deep navy theme with blue & orange accents */
+    --background: 240 37% 7%;
+    --foreground: 0 0% 98%;
 
-    --card: 240 10% 6%;
-    --card-foreground: 0 0% 95%;
+    --card: 240 35% 10%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 240 10% 6%;
-    --popover-foreground: 0 0% 95%;
+    --popover: 240 35% 10%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 180 100% 50%;
-    --primary-foreground: 240 10% 4%;
+    --primary: 17 98% 60%;
+    --primary-foreground: 240 37% 7%;
 
-    --secondary: 270 100% 65%;
+    --secondary: 228 60% 46%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 240 10% 15%;
-    --muted-foreground: 240 5% 55%;
+    --muted: 240 30% 15%;
+    --muted-foreground: 240 10% 60%;
 
-    --accent: 330 100% 60%;
+    --accent: 228 60% 56%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 240 10% 15%;
-    --input: 240 10% 15%;
-    --ring: 180 100% 50%;
+    --border: 240 30% 18%;
+    --input: 240 30% 18%;
+    --ring: 17 98% 60%;
 
     --radius: 0.75rem;
 
-    /* Custom design tokens */
-    --neon-cyan: 180 100% 50%;
-    --neon-purple: 270 100% 65%;
-    --neon-pink: 330 100% 60%;
-    --neon-green: 150 100% 50%;
+    /* Custom design tokens - Brand colors */
+    --brand-orange: 17 98% 60%;
+    --brand-blue: 228 60% 46%;
+    --brand-blue-light: 228 70% 60%;
+    --brand-navy: 240 37% 7%;
+    --brand-coral: 10 90% 65%;
+    --brand-purple: 250 50% 55%;
     
-    --gradient-primary: linear-gradient(135deg, hsl(var(--neon-cyan)), hsl(var(--neon-purple)));
-    --gradient-secondary: linear-gradient(135deg, hsl(var(--neon-purple)), hsl(var(--neon-pink)));
-    --gradient-accent: linear-gradient(135deg, hsl(var(--neon-pink)), hsl(var(--neon-cyan)));
+    --gradient-primary: linear-gradient(135deg, hsl(var(--brand-orange)), hsl(var(--brand-coral)));
+    --gradient-secondary: linear-gradient(135deg, hsl(var(--brand-blue)), hsl(var(--brand-purple)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--brand-blue-light)), hsl(var(--brand-orange)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--brand-blue) / 0.4), hsl(var(--brand-orange) / 0.3), hsl(var(--brand-purple) / 0.3));
     
-    --glow-cyan: 0 0 30px hsl(var(--neon-cyan) / 0.5);
-    --glow-purple: 0 0 30px hsl(var(--neon-purple) / 0.5);
-    --glow-pink: 0 0 30px hsl(var(--neon-pink) / 0.5);
+    --glow-orange: 0 0 30px hsl(var(--brand-orange) / 0.5);
+    --glow-blue: 0 0 30px hsl(var(--brand-blue) / 0.5);
+    --glow-coral: 0 0 30px hsl(var(--brand-coral) / 0.5);
 
-    --sidebar-background: 240 10% 4%;
-    --sidebar-foreground: 0 0% 95%;
-    --sidebar-primary: 180 100% 50%;
-    --sidebar-primary-foreground: 240 10% 4%;
-    --sidebar-accent: 240 10% 15%;
-    --sidebar-accent-foreground: 0 0% 95%;
-    --sidebar-border: 240 10% 15%;
-    --sidebar-ring: 180 100% 50%;
+    --sidebar-background: 240 37% 7%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 17 98% 60%;
+    --sidebar-primary-foreground: 240 37% 7%;
+    --sidebar-accent: 240 30% 15%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 240 30% 18%;
+    --sidebar-ring: 17 98% 60%;
   }
 }
 
@@ -97,16 +100,23 @@
     background-clip: text;
   }
 
-  .glow-cyan {
-    box-shadow: var(--glow-cyan);
+  .text-gradient-accent {
+    background: var(--gradient-accent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
-  .glow-purple {
-    box-shadow: var(--glow-purple);
+  .glow-orange {
+    box-shadow: var(--glow-orange);
   }
 
-  .glow-pink {
-    box-shadow: var(--glow-pink);
+  .glow-blue {
+    box-shadow: var(--glow-blue);
+  }
+
+  .glow-coral {
+    box-shadow: var(--glow-coral);
   }
 
   .border-gradient {

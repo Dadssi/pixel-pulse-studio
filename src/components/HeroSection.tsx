@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 import { ArrowDown, Code, Palette, Film, Sparkles } from 'lucide-react';
 
 const skills = [
-  { icon: Code, label: 'Web Development', color: 'neon-cyan' },
-  { icon: Palette, label: 'Graphic Design', color: 'neon-purple' },
-  { icon: Film, label: 'Video Editing', color: 'neon-pink' },
-  { icon: Sparkles, label: 'Motion Graphics', color: 'neon-green' },
+  { icon: Code, label: 'Web Development', color: 'brand-orange' },
+  { icon: Palette, label: 'Graphic Design', color: 'brand-blue' },
+  { icon: Film, label: 'Video Editing', color: 'brand-coral' },
+  { icon: Sparkles, label: 'Motion Graphics', color: 'brand-purple' },
 ];
 
 const letterAnimation = {
