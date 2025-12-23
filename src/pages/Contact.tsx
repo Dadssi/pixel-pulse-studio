@@ -8,8 +8,8 @@ import { Footer } from '@/components/Footer';
 import { useToast } from '@/hooks/use-toast';
 
 const contactInfo = [
-  { icon: Mail, label: 'Email', value: 'hello@portfolio.dev', href: 'mailto:hello@portfolio.dev' },
-  { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567', href: 'tel:+15551234567' },
+  { icon: Mail, label: 'Email', value: 'contact@dadssidigital.com', href: 'mailto:hello@portfolio.dev' },
+  { icon: Phone, label: 'Phone', value: '+212 6 61 88 43 96', href: 'tel:+15551234567' },
   { icon: MapPin, label: 'Location', value: 'Remote Worldwide', href: '#' },
 ];
 

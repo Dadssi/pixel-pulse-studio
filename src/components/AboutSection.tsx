@@ -3,15 +3,15 @@ import { useRef } from 'react';
 import { Download, Award, Clock, Users } from 'lucide-react';
 
 const stats = [
-  { icon: Clock, value: '5+', label: 'Years Experience', color: 'neon-cyan' },
-  { icon: Users, value: '100+', label: 'Happy Clients', color: 'neon-purple' },
-  { icon: Award, value: '150+', label: 'Projects Completed', color: 'neon-pink' },
+  { icon: Clock, value: '3+', label: 'Years Experience', color: 'neon-cyan' },
+  { icon: Users, value: '30+', label: 'Happy Clients', color: 'neon-purple' },
+  { icon: Award, value: '45+', label: 'Projects Completed', color: 'neon-pink' },
 ];
 
 const tools = [
   'React', 'WordPress', 'PHP', 'JavaScript', 'TypeScript', 'GSAP',
   'Photoshop', 'Illustrator', 'Figma', 'After Effects', 'Premiere Pro',
-  'DaVinci Resolve', 'Cinema 4D', 'Blender',
+  'DaVinci Resolve', 'CapCut', 'Blender',
 ];
 
 export const AboutSection = () => {
@@ -38,7 +38,7 @@ export const AboutSection = () => {
                     animate={{ opacity: [0.5, 1, 0.5] }}
                     transition={{ duration: 3, repeat: Infinity }}
                   >
-                    JD
+                    D.D
                   </motion.div>
                 </div>
                 {/* Glitch overlay effect */}
@@ -64,7 +64,7 @@ export const AboutSection = () => {
                 animate={isInView ? { opacity: 1, x: 0 } : {}}
                 transition={{ delay: 0.3 }}
               >
-                <div className="text-2xl font-bold text-primary">5+</div>
+                <div className="text-2xl font-bold text-primary">3+</div>
                 <div className="text-xs text-muted-foreground">Years Exp.</div>
               </motion.div>
 
@@ -74,7 +74,7 @@ export const AboutSection = () => {
                 animate={isInView ? { opacity: 1, x: 0 } : {}}
                 transition={{ delay: 0.5 }}
               >
-                <div className="text-2xl font-bold text-secondary">150+</div>
+                <div className="text-2xl font-bold text-secondary">45+</div>
                 <div className="text-xs text-muted-foreground">Projects</div>
               </motion.div>
             </div>

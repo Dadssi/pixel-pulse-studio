@@ -41,8 +41,8 @@ export const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link to="/" className="inline-block mb-4">
-              <span className="text-3xl font-bold text-gradient">DEV</span>
-              <span className="text-3xl font-bold text-foreground">.FOLIO</span>
+              <span className="text-3xl font-bold text-gradient">DADSSI</span>
+              <span className="text-3xl font-bold text-foreground">.DIGITAL</span>
             </Link>
             
             <p className="text-muted-foreground max-w-sm mb-6">
@@ -91,11 +91,7 @@ export const Footer = () => {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 pt-8 border-t border-border/50">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} DevFolio. All rights reserved.
-          </p>
-          
-          <p className="text-sm text-muted-foreground flex items-center gap-1">
-            Made with <Heart size={14} className="text-accent fill-accent" /> and lots of coffee
+            © {new Date().getFullYear()} DadssiDigital. All rights reserved.
           </p>
         </div>
       </div>

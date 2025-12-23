@@ -62,9 +62,9 @@ export const HeroSection = () => {
             {/* Main Heading */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-                <AnimatedText text="Creative" className="block" />
+                <AnimatedText text="For Modern" className="block" />
                 <AnimatedText text="Digital" className="block text-gradient" />
-                <AnimatedText text="Developer" className="block" />
+                <AnimatedText text="Experiences" className="block" />
               </h1>
               
               <motion.p

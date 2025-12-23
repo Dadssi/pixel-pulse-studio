@@ -9,7 +9,7 @@ const services = [
     title: 'Web Development',
     description: 'Building responsive, performant websites and web applications with modern technologies and best practices.',
     color: 'neon-cyan',
-    tags: ['React', 'WordPress', 'PHP', 'JavaScript'],
+    tags: ['React', 'WordPress', 'PHP', 'Laravel'],
   },
   {
     icon: Palette,
@@ -30,7 +30,7 @@ const services = [
     title: 'Motion Graphics',
     description: 'Bringing ideas to life with captivating animations, motion design, and visual effects.',
     color: 'neon-green',
-    tags: ['After Effects', '3D Animation', 'Lottie', 'SVG'],
+    tags: ['After Effects', '3D Animation', 'Blender', 'SVG'],
   },
 ];
 

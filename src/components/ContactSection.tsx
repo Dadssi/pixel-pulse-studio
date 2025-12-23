@@ -54,7 +54,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="font-medium group-hover:text-primary transition-colors">hello@devfolio.com</p>
+                  <p className="font-medium group-hover:text-primary transition-colors">contact@dadssidigital.com</p>
                 </div>
               </motion.a>
 
@@ -68,7 +68,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Phone</p>
-                  <p className="font-medium group-hover:text-secondary transition-colors">+1 (234) 567-890</p>
+                  <p className="font-medium group-hover:text-secondary transition-colors">+212 661 88 43 96</p>
                 </div>
               </motion.a>
 
@@ -81,7 +81,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="font-medium">San Francisco, CA</p>
+                  <p className="font-medium">Midelt, Morocco</p>
                 </div>
               </motion.div>
             </div>

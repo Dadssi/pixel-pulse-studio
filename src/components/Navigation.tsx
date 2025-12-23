@@ -26,8 +26,8 @@ export const Navigation = () => {
       <nav className="max-w-7xl mx-auto flex items-center justify-between backdrop-blur-xl bg-background/70 border border-border/50 rounded-2xl px-6 py-3">
         {/* Logo */}
         <Link to="/" className="relative group">
-          <span className="text-2xl font-bold text-gradient">DEV</span>
-          <span className="text-2xl font-bold text-foreground">.FOLIO</span>
+          <span className="text-2xl font-bold text-gradient">DADSSI</span>
+          <span className="text-2xl font-bold text-foreground">.DIGITAL</span>
           <motion.div
             className="absolute -bottom-1 left-0 h-0.5 bg-primary"
             initial={{ width: 0 }}

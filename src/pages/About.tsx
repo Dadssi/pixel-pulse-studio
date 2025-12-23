@@ -13,17 +13,17 @@ const skills = [
 ];
 
 const timeline = [
-  { year: '2024', title: 'Senior Creative Developer', company: 'Freelance', description: 'Leading complex digital projects for international clients.' },
-  { year: '2022', title: 'Creative Lead', company: 'Digital Agency XYZ', description: 'Managed team of designers and developers on enterprise projects.' },
-  { year: '2020', title: 'Motion Designer', company: 'Studio Motion', description: 'Created animations and visual effects for commercials and films.' },
-  { year: '2018', title: 'Junior Developer', company: 'WebCraft Inc', description: 'Started career building WordPress sites and learning the craft.' },
+  { year: '2025', title: 'Founder & Digital Solutions Specialist', company: 'Dadssi Digital', description: 'Launched my professional startup, providing end-to-end digital services, from high-performance web development to advanced visual storytelling.' },
+  { year: '2024', title: 'Full Stack Web Developer', company: 'Youcode (UM6P)', description: 'Earned a Full Stack Diploma, mastering React, Laravel, and Agile methodologies (Scrum). Specialized in building scalable applications with professional tools like Jira and Git.' },
+  { year: '2022', title: 'Motion Designer & Video Editor', company: 'Self Directed', description: 'Self-taught expert in cinematic editing and 3D motion graphics. Mastering Premiere Pro, After Effects, and Blender to create hight-impact visual content.' },
+  { year: '2020', title: 'Graphic Designer', company: 'Self-Directed', description: 'Began my creative journey by mastering the Adobe Suite (Photoshop/Illustrator), focusing on brand identity and professional visual communication.' },
 ];
 
 const stats = [
-  { value: '100+', label: 'Projects Completed' },
-  { value: '50+', label: 'Happy Clients' },
-  { value: '6+', label: 'Years Experience' },
-  { value: '15+', label: 'Awards Won' },
+  { value: '45+', label: 'Projects Completed' },
+  { value: '30+', label: 'Happy Clients' },
+  { value: '3+', label: 'Years Experience' },
+  { value: '4+', label: 'Skills' },
 ];
 
 const About = () => {
@@ -49,7 +49,7 @@ const About = () => {
                   <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-3xl" />
                   <div className="relative overflow-hidden rounded-3xl border border-border/50">
                     <img
-                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80"
+                      src="../public/dadssi-mohamed-abdelhak.png"
                       alt="Profile"
                       className="w-full h-full object-cover"
                     />
@@ -96,7 +96,7 @@ const About = () => {
                   <span className="text-foreground"> & Designer</span>
                 </h1>
                 <p className="text-lg text-muted-foreground mb-6">
-                  I'm a passionate creative professional with over 6 years of experience in web development, 
+                  I'm Dadssi Mohamed Abdelhak a passionate creative professional with over 3 years of professional experience in web development, 
                   graphic design, video editing, and motion graphics. I believe in the power of combining 
                   technical expertise with creative vision to deliver exceptional digital experiences.
                 </p>
@@ -113,7 +113,7 @@ const About = () => {
                   </div>
                   <div className="flex items-center gap-2 text-muted-foreground">
                     <Mail className="w-4 h-4 text-primary" />
-                    <span>hello@portfolio.dev</span>
+                    <span>contact@dadssidigital.com</span>
                   </div>
                   <div className="flex items-center gap-2 text-muted-foreground">
                     <Calendar className="w-4 h-4 text-primary" />
